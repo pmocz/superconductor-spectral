@@ -5,7 +5,7 @@ Spectral Solver for the Ginzburg-Landau equation
 
 ### Philip Mocz (2023) [@PMocz](https://twitter.com/PMocz)
 
-### [📝 Read the Algorithm Write-up on Medium](https://philip-mocz.medium.com/create-your-own-navier-stokes-spectral-method-fluid-simulation-with-python-3f37405524f4)
+### [📝 Read the Algorithm Write-up on Medium]()
 
 Simulate a simplified version of the time-dependent complex Ginzburg-Landau equation with the Spectral method
 
