@@ -12,6 +12,9 @@ with the Spectral method
 d psi / d t = (1+i*alpha) * nabla^2 psi + psi - (1-i*beta)*|psi|^2*psi
 """
 
+def exit_all(event):
+	""" exits the program """
+	raise SystemExit
 
 def main():
 	""" Superconductor simulation """
@@ -49,6 +52,7 @@ def main():
 	
 	# prep figure
 	fig = plt.figure(figsize=(4,4), dpi=150)
+	fig.canvas.mpl_connect('close_event', exit_all)
 	outputCount = 1
 	
 	# Simulation Main Loop
